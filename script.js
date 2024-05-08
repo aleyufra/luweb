@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
         btnContainer.style.display = "none";
 
         const titleContainer = document.querySelector(".title-container");
-        titleContainer.style.display = "none";
+        // titleContainer.style.display = "none";
 
         const answerContainer = document.querySelector(".answer-container");
         answerContainer.style.display = "flex";
