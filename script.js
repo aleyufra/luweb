@@ -48,10 +48,10 @@ window.addEventListener('load', () => {
 
     btnNo.addEventListener('click', () => {
         cambiarTexto();
-        width = width + (width/100 * 8)
-        height = height + (height/100 * 8)
-        size = size + (size/100 * 10)
-        paddingX = paddingX + (paddingX/100 * 5)
+        width = width + (width/100 * 10)
+        height = height + (height/100 * 10)
+        size = size + (size/100 * 12)
+        paddingX = paddingX + (paddingX/100 * 7)
         btnYes.style.width = `${width}px`
         btnYes.style.height = `${height}px`
         btnYes.style.fontSize = `${size}px`
